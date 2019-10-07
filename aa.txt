@@ -1,0 +1,4 @@
+git add .
+git commit -m "abcd"
+git status
+git push
