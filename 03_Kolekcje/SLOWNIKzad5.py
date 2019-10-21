@@ -20,3 +20,21 @@ for -> list txt
  ladne wyswietlanie, 
  szybko : 5
  zbudz : 1 itd.'''
+
+dict = {}
+
+text = """Szybko, zbudź się, szybko, wstawaj
+Szybko, szybko, stygnie kawa
+Szybko, zęby myj i ręce"""
+
+text_list = text.replace(',', '').split()
+
+for word in text_list:
+    if word.lower() in dict:
+        dict[word.lower()] += 1
+    else:
+        dict[word.lower()] = 1
+print(dict)
+
+for keys, values in dict.items():
+    print(keys+':', values)
