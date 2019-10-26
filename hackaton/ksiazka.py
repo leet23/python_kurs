@@ -75,7 +75,7 @@ def exit():
 
 
 address_book = [{'Surname' : 'Kowalski', 'Name' : 'Jan', 'Phone' : '123456789', 'City' : 'Poznań'},
-                {'Surname' : 'Mickiewicz', 'Name' : 'Adam', 'Phone' : 'unknown', 'City' : 'Cemetery'},
+                {'Surname' : 'Mickiewicz', 'Name' : 'Adam', 'Phone' : '231274215', 'City' : 'Wielkopolska'},
                 {'Surname' : 'Stefanowicz', 'Name' : 'Stefan', 'Phone' : '702342123', 'City' : 'Warszawa'},
                 {'Surname' : 'Adamski', 'Name' : 'Adam', 'Phone' : '666222111', 'City' : 'Szczecin'},
                 {'Surname' : 'Józefowicz', 'Name' : 'Józef', 'Phone' : '600555222', 'City' : 'Kraków'}]
