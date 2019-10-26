@@ -15,5 +15,6 @@ rand_p = random.choice(places)
 rand_a = random.choice(adventures)
 rand_r = random.choice(roles)
 
-story = "Once upon a time there was a " + rand_r + " whose name was " + rand_n + ". He followed the path that led to the " + rand_p + "."
+story = "Once upon a time there was a " + rand_r + " whose name was " + rand_n + \
+        ". He followed the path that led to the " + rand_p + ". An "+ rand_a +" awaits him here."
 print(story)
