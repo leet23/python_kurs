@@ -66,6 +66,7 @@ def remove_rec():
             go_to_selection()
     else:
         del address_book[to_remove-1]
+        show_all()
 
 
 
